@@ -34,8 +34,11 @@ Talk about how the fade works, here....
 https://create.arduino.cc/editor/helmstk1/9e044cca-43d7-4d93-885f-e6dec5b4f769/preview
 
 ### Images
+![led](https://user-images.githubusercontent.com/71342179/105392979-d1c83a80-5be9-11eb-94cc-38b8c1660e23.png)
 
 ### Reflection
+
+This was very hard because I didn't learn any code in Buford so im going to have to watch tons of tutorials and stuff to catch myself up and hopefully succeed.
 
 ## Hello_LCD
 
