@@ -69,7 +69,18 @@ draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIV
 
 
 ```C++
+int ledPin = 13;              // LED connected to digital pin 13
 
+void setup() {
+  pinMode(ledPin, OUTPUT);    // sets the digital pin as output
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH); // sets the LED on
+  delay(1000);                // waits for a second
+  digitalWrite(ledPin, LOW);  // sets the LED off
+  delay(1000);                // waits for a second
+}
 ```
 
 
@@ -79,3 +90,35 @@ draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIV
 
 ### Reflection
 
+
+
+
+## Photoresistor
+
+### Description & Code
+
+```C++
+int ledPin = 3;
+int photocellInput = 0;
+ 
+void setup()  {
+  pinMode(ledPin, OUTPUT);
+}
+ 
+ 
+void loop()  {
+ 
+  photocellInput = (analogRead(0)/4); // Divides input 0-1023 to resemble to 0-255
+ 
+  analogWrite(ledPin, photocellInput);  
+  // The delay can be change to get the desired dimming effect
+  delay(20);                            
+}
+```
+
+### Evidence
+
+### Images
+![Wiring](https://user-images.githubusercontent.com/71342179/105926833-c4a7b300-6010-11eb-9313-209dfbcccfea.png)
+### Reflection
+I have no idea what I'm doing but google helped me so that's nice.
