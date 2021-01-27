@@ -89,8 +89,7 @@ https://create.arduino.cc/editor/jaust80/1cbdaf40-41ad-44d1-b06d-bc525368b117
 ### Images
 ![Finite_Led_Blinker](https://user-images.githubusercontent.com/71342179/105927365-dccc0200-6011-11eb-80cd-1a1f2673fda7.PNG)
 ### Reflection
-
-
+I think I kind of understand the loop() thing so thats cool. I have been watching lots of videos on youtube on coding arduino for beginners.
 
 
 ## Photoresistor
